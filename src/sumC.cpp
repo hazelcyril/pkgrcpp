@@ -1,6 +1,6 @@
 #include <Rcpp.h>
 using namespace Rcpp;
-
+// [[Rcpp::interfaces(r, cpp)]]
 
 //' Adds all numbers in a numeric vector
 //'
