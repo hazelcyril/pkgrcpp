@@ -6,6 +6,9 @@
 \usage{
 sumC(x)
 }
+\arguments{
+\item{x}{a numeric vector}
+}
 \description{
 Returns the sum of all numbers in a numeric vector
 }

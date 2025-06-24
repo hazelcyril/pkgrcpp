@@ -6,6 +6,11 @@
 \usage{
 add_cpp(x, y)
 }
+\arguments{
+\item{x}{a numeric value}
+
+\item{y}{a numeric value}
+}
 \description{
 Return the sum of two numbers.
 }

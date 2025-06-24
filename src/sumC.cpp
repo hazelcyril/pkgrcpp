@@ -5,7 +5,7 @@ using namespace Rcpp;
 //' Adds all numbers in a numeric vector
 //'
 //' Returns the sum of all numbers in a numeric vector
-//' @param x
+//' @param x a numeric vector
 //' @export
 // [[Rcpp::export]]
 double sumC(NumericVector x) {

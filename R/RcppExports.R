@@ -4,8 +4,8 @@
 #' Add Two Numbers
 #'
 #' Return the sum of two numbers.
-#' @param x
-#' @param y
+#' @param x a numeric value
+#' @param y a numeric value
 #' @export
 add_cpp <- function(x, y) {
     .Call(`_pkgrcpp_add_cpp`, x, y)
@@ -14,7 +14,7 @@ add_cpp <- function(x, y) {
 #' Adds all numbers in a numeric vector
 #'
 #' Returns the sum of all numbers in a numeric vector
-#' @param x
+#' @param x a numeric vector
 #' @export
 sumC <- function(x) {
     .Call(`_pkgrcpp_sumC`, x)
